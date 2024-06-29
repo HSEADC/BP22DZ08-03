@@ -1,37 +1,53 @@
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-}
-
-.images {
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+  min-width: 375px;
+  background: var(--depression);
+  text: var(--trench);
 
-  * {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
+  & > div,
+  & > a {
+    margin: 10px 0;
   }
 
-  .image {
-    &#bgPNG {
-      background-image: url('images/image.png');
-    }
-
-    &#bgJPG {
-      background-image: url('images/image.jpg');
-    }
-
-    &#bgSVG {
-      background-image: url('images/image.svg');
-    }
-  }
 }
+h1,h2,h3,h4,h5,h6{
+  color: var(--trench);
+}
+
+h1{
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--trench);
+}
+
+h2{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--trench);
+  }
+
+  h3{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: var(--trench);
+    }
+
+a {x
+   text-decoration: none;
+   color: var(--orange);
+ }
+
+ .container{
+margin: 0 auto;
+ }

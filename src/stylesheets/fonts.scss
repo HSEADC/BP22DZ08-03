@@ -1,31 +1,269 @@
+/*
+ * @link https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping
+ */
+
+/*
+ * For this specific font we arrage the weights as follows:
+ * UltraLight    100
+ * Thin          200
+ * Light         300
+ * Regular       400
+ * Medium        500
+ * Bold          700
+ * Heavy         800
+ * Black         900
+ * ExtraBlack    950
+ */
+
+/* Neue Haas Unica Pro Thin Regular */
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Light.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Light.woff') format('woff');
+  font-family: 'NEUEHAASUNICA-BLACK';
+  src:  local('Neue Haas Unica Pro Thin'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Thin.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Thin.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Thin.woff') format('woff'),
+        url('../fonts/NEUEHAASUNICA-BLACK.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Thin.svg#NeueHaasUnicaPro-Thin') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Neue Haas Unica Pro Thin Italic */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Thin Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-ThinItalic.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-ThinItalic.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-ThinItalic.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-ThinItalic.svg#NeueHaasUnicaPro-ThinItalic') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-ThinItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro UltaLight Regular */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro UltraLight'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltraLight.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltraLight.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltraLight.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltraLight.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltraLight.svg#NeueHaasUnicaPro-UltraLight') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltraLight.eot?#iefix') format('embedded-opentype');
   font-weight: 100;
   font-style: normal;
 }
 
+/* Neue Haas Unica Pro UltraLIght Italic */
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Regular.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Regular.woff') format('woff');
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro UltraLight Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltLightIt.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltLightIt.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltLightIt.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltLightIt.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltLightIt.svg#NeueHaasUnicaPro-UltLightIt') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-UltLightIt.eot?#iefix') format('embedded-opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro Light Regular */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Light'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Light.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Light.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Light.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Light.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Light.svg#NeueHaasUnicaPro-Light') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Neue Haas Unica Pro Light Italic */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Light Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-LightIt.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-LightIt.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-LightIt.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-LightIt.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-LightIt.svg#NeueHaasUnicaPro-LightIt') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-LightIt.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro Regular */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Regular'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Regular.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Regular.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Regular.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Regular.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Regular.svg#NeueHaasUnicaPro-Regular') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Regular.eot?#iefix') format('embedded-opentype');
   font-weight: 400;
   font-style: normal;
 }
 
+/* Neue Haas Unica Pro Italic */
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Medium.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Medium.woff') format('woff');
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Italic.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Italic.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Italic.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Italic.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Italic.svg#NeueHaasUnicaPro-Italic') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro Medium Regular */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Medium'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Medium.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Medium.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Medium.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Medium.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Medium.svg#NeueHaasUnicaPro-Medium') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Medium.eot?#iefix') format('embedded-opentype');
   font-weight: 500;
   font-style: normal;
 }
 
+/* Neue Haas Unica Pro Medium Italic */
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Bold.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Bold.woff') format('woff');
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Medium Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-MediumIt.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-MediumIt.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-MediumIt.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-MediumIt.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-MediumIt.svg#NeueHaasUnicaPro-MediumIt') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-MediumIt.eot?#iefix') format('embedded-opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro Bold */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Bold'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Bold.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Bold.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Bold.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Bold.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Bold.svg#NeueHaasUnicaPro-Bold') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 700;
   font-style: normal;
 }
+
+/* Neue Haas Unica Pro Bold Italic */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Bold Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BoldItalic.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BoldItalic.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BoldItalic.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BoldItalic.svg#NeueHaasUnicaPro-BoldItalic') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro Heavy */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Heavy'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Heavy.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Heavy.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Heavy.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Heavy.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Heavy.svg#NeueHaasUnicaPro-Heavy') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Heavy.eot?#iefix') format('embedded-opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Neue Haas Unica Pro Heavy Italic */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Heavy Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-HeavyIt.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-HeavyIt.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-HeavyIt.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-HeavyIt.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-HeavyIt.svg#NeueHaasUnicaPro-HeavyIt') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-HeavyIt.eot?#iefix') format('embedded-opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro Black */
+@font-face {
+  font-family: 'NEUEHAASUNICA-BLACK';
+  src:  local('NEUEHAASUNICA-BLACK'),  
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Black.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Black.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Black.woff') format('woff'),
+        url('../fonts/.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Black.svg#NeueHaasUnicaPro-Black') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Neue Haas Unica Pro Black Italic */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro Black Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BlackIt.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BlackIt.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BlackIt.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BlackIt.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BlackIt.svg#NeueHaasUnicaPro-BlackIt') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-BlackIt.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Neue Haas Unica Pro ExtraBlack */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro ExtraBlack'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlack.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlack.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlack.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlack.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlack.svg#NeueHaasUnicaPro-XBlack') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlack.eot?#iefix') format('embedded-opentype');
+  font-weight: 950;
+  font-style: normal;
+}
+
+/* Neue Haas Unica Pro ExtraBlack Italic */
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src:  local('Neue Haas Unica Pro ExtraBlack Italic'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlackIt.eot'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlackIt.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlackIt.woff') format('woff'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlackIt.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlackIt.svg#NeueHaasUnicaPro-XBlackIt') format('svg'),
+        url('../fonts/NeueHaasUnicaPro/NeueHaasUnicaPro-XBlackIt.eot?#iefix') format('embedded-opentype');
+  font-weight: 950;
+  font-style: italic;
+}
+
